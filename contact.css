@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #250e4a;
+  height: 70px;
+}
+body {
+  background-color: rgb(243, 239, 239);
+}
+
+nav {
+  height: 114px;
+  background-color: #250e4a;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #e8d5b5;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 5px;
+}
+
+a {
+  border-bottom: 2px solid #9d88b3;
+  text-decoration: none;
+  align-items: center;
+  color: #e8d5b5;
+}
+
+.t-login {
+  color: #250e4a !important;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  font-weight: 600;
+  font-size: 25px;
+  background-color: #e8d5b5;
+  border: 2px solid #e8d5b5;
+  height: 57px;
+  width: 129px;
+  border-radius: 10px;
+  color: #250e4a;
+  cursor: pointer;
+}
+
+.signup {
+  font-weight: 600;
+  font-size: 25px;
+  background-color: #250e4a;
+  border: 2px solid #e8d5b5;
+  height: 57px;
+  width: 129px;
+  border-radius: 10px;
+  color: #e8d5b5;
+  cursor: pointer;
+}
+.t-login {
+  color: #250e4a !important;
+}
+
+.contact-us {
+  text-align: center;
+  padding: 40px;
+
+  font-size: 35px;
+}
+
+.form {
+  max-width: 62%;
+  margin: 42px auto;
+}
+
+.iform {
+  margin: 20px 0;
+  width: 100%;
+  font-size: 19px;
+  border: 2px solid grey;
+  border-radius: 6px;
+  padding: 5px 3px;
+}
+
+.contact {
+  background: rgb(243, 239, 239);
+  height: 900px;
+}
+
+.send {
+  background-color: #30809d;
+  color: #e8d5b5;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: #30809d;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-left: 261px;
+}
+
+.submit {
+  text-decoration: none;
+  border: 0px;
+}

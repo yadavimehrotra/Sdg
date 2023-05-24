@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #9d88b3;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #250e4a;
+  height: 70px;
+}
+
+nav {
+  height: 114px;
+  background-color: #250e4a;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #e8d5b5;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin: 5px;
+}
+
+a {
+  border-bottom: 2px solid #9d88b3;
+  text-decoration: none;
+  align-items: center;
+  color: #e8d5b5;
+}
+
+.t-login {
+  color: #250e4a !important;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  font-weight: 600;
+  font-size: 25px;
+  background-color: #e8d5b5;
+  border: 2px solid #e8d5b5;
+  height: 57px;
+  width: 129px;
+  border-radius: 10px;
+  color: #250e4a;
+  cursor: pointer;
+}
+
+.signup {
+  font-weight: 600;
+  font-size: 25px;
+  background-color: #250e4a;
+  border: 2px solid #e8d5b5;
+  height: 57px;
+  width: 129px;
+  border-radius: 10px;
+  color: #e8d5b5;
+  cursor: pointer;
+}
+.homepage {
+  background-color: #9d88b3;
+  color: #00c2aa;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.sdg {
+  font-weight: 700;
+  font-size: 40px;
+
+  color: #e8d5b5;
+  margin-top: 100px;
+}
+
+.sdg1 {
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #250e4a;
+  text-decoration: underline;
+}
+
+.lorem {
+  font-weight: 400;
+  font-size: 25px;
+  color: #006e5e;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  width: 687px;
+  margin-top: 15px;
+}
+
+.readmore {
+  background-color: #30809d;
+  color: #e8d5b5;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: #30809d;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.img1 {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: 5px;
+}
+
+about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #9d88b3;
+}
+
+.ipsum {
+  width: 500px;
+  font-size: 20px;
+}
+
+.fora {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.afor {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #250e4a;
+  color: #e8d5b5;
+  font-size: 25px;
+  margin-top: 50px;
+}
